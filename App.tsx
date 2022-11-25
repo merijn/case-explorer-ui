@@ -5,7 +5,10 @@ import Amplify, { Auth,  Hub,  }  from "aws-amplify";
 import React from 'react';
 // @ts-ignore
 import cytoscape from 'cytoscape'
-// @ts-ignore
+import expandCollapse from 'cytoscape-expand-collapse';
+import undoRedo from 'cytoscape-undo-redo';
+expandCollapse(cytoscape);
+undoRedo(cytoscape);
 import euler from 'cytoscape-euler'
 // @ts-ignore
 import cola from 'cytoscape-cola'
