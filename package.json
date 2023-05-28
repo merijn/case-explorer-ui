@@ -53,5 +53,14 @@
     "colay-dev": "0.0.25",
     "typescript": "5.0.4"
   },
-  "private": true
+  "private": true,
+  "name": "case-explorer-ui",
+  "description": "Please see our documentation [here](https://maastrichtlawtech.github.io/case-explorer-ui/).",
+  "version": "1.0.0",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
